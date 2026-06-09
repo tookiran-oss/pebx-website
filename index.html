@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEBX Steel Buildings Pvt. Ltd. | Pre-Engineered Steel Buildings</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3, h4, .font-heading {
+            font-family: 'Syne', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #0b3c5d 0%, #1e5e8a 100%);
+        }
+        .color-swatch {
+            transition: transform 0.2s;
+        }
+        .color-swatch:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700 antialiased">
+
+    <div class="bg-[#0b3c5d] text-white text-xs sm:text-sm py-2.5 px-4 border-b border-sky-900/30">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex flex-wrap justify-center gap-5">
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-envelope text-amber-500 text-xs"></i> info@pebxsteel.com</span>
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-phone text-amber-500 text-xs"></i> +91 8608796669 / +91 8971024276</span>
+            </div>
+            <div class="text-center sm:text-right font-medium tracking-widest text-[11px] text-slate-300">
+                ISO 9001:2015 | ISO 14001:2015 | ISO 45001:2018 CERTIFIED
+            </div>
+        </div>
+    </div>
+
+    <nav class="sticky top-0 bg-white/95 backdrop-blur-md shadow-sm z-50 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-22">
+                <div class="flex items-center">
+                    <a href="#home" class="flex items-center">
+                        <img src="logo.png" alt="PEBX Steel Buildings Pvt. Ltd. Logo" class="h-16 w-auto max-w-[220px] object-contain">
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex space-x-7 items-center">
+                    <a href="#home" class="text-slate-600 hover:text-[#0b3c5d] font-semibold text-sm tracking-wide transition">Home</a>
+                    <a href="#about" class="text-slate-600 hover:text-[#0b3c5d] font-semibold text-sm tracking-wide transition">About Us</a>
+                    <a href="#services" class="text-slate-600 hover:text-[#0b3c5d] font-semibold text-sm tracking-wide transition">Services</a>
+                    <a href="#facility" class="text-slate-600 hover:text-[#0b3c5d] font-semibold text-sm tracking-wide transition">Manufacturing</a>
+                    <a href="#technical" class="text-slate-600 hover:text-[#0b3c5d] font-semibold text-sm tracking-wide transition">PEB Advantages</a>
+                    <a href="#projects" class="text-slate-600 hover:text-[#0b3c5d] font-semibold text-sm tracking-wide transition">Projects</a>
+                    <a href="#contact" class="bg-[#d97706] text-white px-5 py-2.5 rounded font-bold text-xs tracking-wider uppercase hover:bg-[#0b3c5d] transition shadow-sm">Contact Us</a>
+                </div>
+                <div class="flex items-center md:hidden">
+                    <button id="mobile-menu-btn" class="text-slate-700 hover:text-[#0b3c5d] focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-200 px-4 pt-2 pb-4 space-y-1 shadow-inner">
+            <a href="#home" class="block px-3 py-2 text-slate-600 font-medium hover:bg-slate-50 rounded">Home</a>
+            <a href="#about" class="block px-3 py-2 text-slate-600 font-medium hover:bg-slate-50 rounded">About Us</a>
+            <a href="#services" class="block px-3 py-2 text-slate-600 font-medium hover:bg-slate-50 rounded">Services</a>
+            <a href="#facility" class="block px-3 py-2 text-slate-600 font-medium hover:bg-slate-50 rounded">Manufacturing</a>
+            <a href="#technical" class="block px-3 py-2 text-slate-600 font-medium hover:bg-slate-50 rounded">PEB Advantages</a>
+            <a href="#projects" class="block px-3 py-2 text-slate-600 font-medium hover:bg-slate-50 rounded">Projects</a>
+            <a href="#contact" class="block px-3 py-2 text-center bg-[#d97706] text-white font-bold rounded text-xs uppercase tracking-wider">Contact Us</a>
+        </div>
+    </nav>
+
+    <section id="home" class="relative bg-slate-950 text-white overflow-hidden min-h-[70vh] flex items-center">
+        <div class="absolute inset-0 opacity-35 bg-cover bg-center bg-no-repeat" style="background-image: url('hero_factory_background.jpg');"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/85 to-transparent"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 z-10">
+            <span class="inline-block bg-[#0b3c5d] text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded mb-4 border border-sky-800/50">Welcome to PEBX Steel Buildings</span>
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mb-5 leading-tight">
+                Next-Generation <br><span class="text-[#d97706]">Steel Building Systems</span>
+            </h1>
+            <p class="text-base sm:text-lg max-w-2xl text-slate-300 mb-8 leading-relaxed text-justify">
+                Providing sustainable, energy-efficient, and cost-effective Turnkey Pre-Engineered Steel Buildings and heavy structural steel infrastructure across India.
+            </p>
+            <div class="flex flex-wrap gap-x-5 gap-y-2 text-[11px] font-bold tracking-widest uppercase border-t border-b border-slate-800 py-4 mb-8 max-w-4xl text-slate-400">
+                <span class="whitespace-nowrap flex items-center gap-1.5"><i class="fa-solid fa-square-check text-[#d97706]"></i> Pre-Engineered Buildings</span>
+                <span class="whitespace-nowrap flex items-center gap-1.5"><i class="fa-solid fa-square-check text-[#d97706]"></i> Structural Steel</span>
+                <span class="whitespace-nowrap flex items-center gap-1.5"><i class="fa-solid fa-square-check text-[#d97706]"></i> Tensile Fabric</span>
+                <span class="whitespace-nowrap flex items-center gap-1.5"><i class="fa-solid fa-square-check text-[#d97706]"></i> Roofing & Cladding</span>
+                <span class="whitespace-nowrap flex items-center gap-1.5"><i class="fa-solid fa-square-check text-[#d97706]"></i> Strengthening Works</span>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#services" class="inline-block bg-[#0b3c5d] text-white text-center px-8 py-3.5 rounded font-bold text-xs uppercase tracking-wider hover:bg-sky-800 transition shadow-lg">Our Services</a>
+                <a href="#projects" class="inline-block bg-transparent border-2 border-white/80 text-white text-center px-8 py-3.5 rounded font-bold text-xs uppercase tracking-wider hover:bg-white hover:text-slate-900 transition">View Major Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-[#d97706] text-white font-bold text-center py-4 px-4 shadow-md">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-8 text-xs sm:text-sm tracking-widest uppercase">
+            <span class="bg-amber-800/40 text-white px-2.5 py-1 rounded text-[10px] font-extrabold">Our Motto</span>
+            <span class="flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-amber-200"></i> Safety</span>
+            <span class="hidden sm:inline text-amber-500">/</span>
+            <span class="flex items-center gap-1.5"><i class="fa-solid fa-bolt text-amber-200"></i> Speed</span>
+            <span class="hidden sm:inline text-amber-500">/</span>
+            <span class="flex items-center gap-1.5"><i class="fa-solid fa-award text-amber-200"></i> Quality</span>
+        </div>
+    </div>
+
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                
+                <div class="lg:col-span-7">
+                    <h2 class="text-xs font-extrabold uppercase tracking-widest text-[#d97706] mb-2">Our Journey So Far</h2>
+                    <h3 class="text-3xl font-black text-[#0b3c5d] mb-6 tracking-tight">Complete Turnkey Structural & PEB Infrastructure Solutions</h3>
+                    
+                    <div class="space-y-4 text-slate-600 leading-relaxed text-justify text-sm sm:text-base">
+                        <p>Incorporated in the year <strong>2022</strong>, the PEBX group draws upon an elite foundation of <strong>15 plus years of structural steel fabrication work experience in India</strong>. We deliver elite engineering frameworks for all kinds of Industrial, Warehouse, and Composite Commercial structural units.</p>
+                        <p>We launched as a specialized enterprise delivering end-to-end design, high-capacity fabrication, material supply, and rigorous execution systems. Our systems utilize premier, verified raw steel outputs manufactured by industry gold standards like <strong>JSW Steel</strong> and <strong>TATA BlueScope Steel</strong>.</p>
+                        <p>Over time, we expanded our design intelligence, establishing fully optimized production setups managed by qualified engineering professionals. We map raw conceptual frameworks into durable, structural architecture engineered to maximize loading compliance, material economy, and aesthetic value.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                        <div class="p-6 bg-slate-50 border-l-4 border-[#0b3c5d] rounded shadow-sm">
+                            <h4 class="font-bold text-base text-[#0b3c5d] mb-2 flex items-center gap-2"><i class="fa-solid fa-eye text-amber-500"></i>Our Vision</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed text-justify">To provide sustainable, energy-efficient, and cost-effective next-generation steel buildings to the Indian industry, enhancing the lives of all associated partners.</p>
+                        </div>
+                        <div class="p-6 bg-slate-50 border-l-4 border-[#d97706] rounded shadow-sm">
+                            <h4 class="font-bold text-base text-[#0b3c5d] mb-2 flex items-center gap-2"><i class="fa-solid fa-bullseye text-amber-500"></i>Our Mission</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed text-justify">To achieve business excellence through high ethical standards, exceptional manufacturing quality, continuous innovation, and structural safety.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5 bg-[#0b3c5d] text-white p-8 rounded-xl shadow-xl sticky top-28 border border-sky-900">
+                    <h3 class="text-lg font-bold mb-4 border-b border-sky-800 pb-2 tracking-wide text-amber-400">Operational Execution Flow</h3>
+                    <p class="text-xs text-slate-300 mb-6 text-justify leading-relaxed">We manage turnkey projects through four carefully optimized phases:</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3.5">
+                            <div class="bg-[#d97706] text-white rounded w-7 h-7 flex items-center justify-center font-bold text-xs shrink-0">1</div>
+                            <div>
+                                <h4 class="font-bold text-sm text-white tracking-wide">Design & Detailing</h4>
+                                <p class="text-xs text-slate-300 mt-0.5 text-justify leading-relaxed">Custom conceptualization using high-accuracy structural calculation frameworks.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3.5">
+                            <div class="bg-[#d97706] text-white rounded w-7 h-7 flex items-center justify-center font-bold text-xs shrink-0">2</div>
+                            <div>
+                                <h4 class="font-bold text-sm text-white tracking-wide">Fabrication</h4>
+                                <p class="text-xs text-slate-300 mt-0.5 text-justify leading-relaxed">Processed in automatic, state-of-the-art CNC lines ensuring absolute precision.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3.5">
+                            <div class="bg-[#d97706] text-white rounded w-7 h-7 flex items-center justify-center font-bold text-xs shrink-0">3</div>
+                            <div>
+                                <h4 class="font-bold text-sm text-white tracking-wide">Installation / Erection</h4>
+                                <p class="text-xs text-slate-300 mt-0.5 text-justify leading-relaxed">Safe, fast, and organized structural on-site assembly by skilled teams.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3.5">
+                            <div class="bg-emerald-600 text-white rounded w-7 h-7 flex items-center justify-center font-bold text-xs shrink-0">4</div>
+                            <div>
+                                <h4 class="font-bold text-sm text-emerald-400 tracking-wide">Completion</h4>
+                                <p class="text-xs text-slate-300 mt-0.5 text-justify leading-relaxed">Rigorous structural check and handover fulfilling timelines and cost targets.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-sky-800 text-center">
+                        <span class="text-3xl font-black text-amber-400 block">100+</span>
+                        <span class="text-[10px] text-slate-300 uppercase tracking-widest font-bold">Skilled Technicians & Site Workers</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-extrabold uppercase tracking-widest text-[#d97706] mb-2">Capabilities</h2>
+                <h3 class="text-3xl font-black text-[#0b3c5d] tracking-tight">Engineering & Turnkey Offerings</h3>
+                <p class="text-slate-600 mt-3 text-sm sm:text-base">From heavy industrial warehouses to complex composite multi-story frameworks, we provide specialized end-to-end structural solutions.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-7 rounded-xl shadow-sm hover:shadow-md transition border border-slate-200/60">
+                    <div class="w-12 h-12 rounded bg-sky-50 text-[#0b3c5d] flex items-center justify-center text-xl font-bold mb-5"><i class="fa-solid fa-industry"></i></div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2.5 tracking-wide">Pre-Engineered Buildings (PEB)</h4>
+                    <p class="text-xs text-slate-600 text-justify leading-relaxed">Complete architectural frameworks custom engineered for factories, logistics hubs, and processing sheds with modular expansibility.</p>
+                </div>
+                <div class="bg-white p-7 rounded-xl shadow-sm hover:shadow-md transition border border-slate-200/60">
+                    <div class="w-12 h-12 rounded bg-sky-50 text-[#0b3c5d] flex items-center justify-center text-xl font-bold mb-5"><i class="fa-solid fa-trowel-bricks"></i></div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2.5 tracking-wide">Composite Steel Buildings</h4>
+                    <p class="text-xs text-slate-600 text-justify leading-relaxed">Advanced high-rise and multi-story structural frames merging concrete elements with structural steel for superior rigidity.</p>
+                </div>
+                <div class="bg-white p-7 rounded-xl shadow-sm hover:shadow-md transition border border-slate-200/60">
+                    <div class="w-12 h-12 rounded bg-sky-50 text-[#0b3c5d] flex items-center justify-center text-xl font-bold mb-5"><i class="fa-solid fa-layer-group"></i></div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2.5 tracking-wide">Roofing & Wall Cladding</h4>
+                    <p class="text-xs text-slate-600 text-justify leading-relaxed">Weather-tight premium metal profile layouts, premium single-skin panels, and thermal envelope cladding systems.</p>
+                </div>
+                <div class="bg-white p-7 rounded-xl shadow-sm hover:shadow-md transition border border-slate-200/60">
+                    <div class="w-12 h-12 rounded bg-sky-50 text-[#0b3c5d] flex items-center justify-center text-xl font-bold mb-5"><i class="fa-solid fa-cubes"></i></div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2.5 tracking-wide">Insulated Sandwich Panels</h4>
+                    <p class="text-xs text-slate-600 text-justify leading-relaxed">High-efficiency energy conservative insulation wall and ceiling setups optimized for specialized and cold-chain facilities.</p>
+                </div>
+                <div class="bg-white p-7 rounded-xl shadow-sm hover:shadow-md transition border border-slate-200/60">
+                    <div class="w-12 h-12 rounded bg-sky-50 text-[#0b3c5d] flex items-center justify-center text-xl font-bold mb-5"><i class="fa-solid fa-sheet-plastic"></i></div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2.5 tracking-wide">Tensile Fabric & Structures</h4>
+                    <p class="text-xs text-slate-600 text-justify leading-relaxed">Architecturally dynamic, lightweight, high-strength fabric systems for specialized roof geometries and canopies.</p>
+                </div>
+                <div class="bg-white p-7 rounded-xl shadow-sm hover:shadow-md transition border border-slate-200/60">
+                    <div class="w-12 h-12 rounded bg-sky-50 text-[#0b3c5d] flex items-center justify-center text-xl font-bold mb-5"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2.5 tracking-wide">Strengthening & Retrofitting</h4>
+                    <p class="text-xs text-slate-600 text-justify leading-relaxed">Structural modification, high-load column reinforcing, modifications, and general engineering maintenance works.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="facility" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-xs font-extrabold uppercase tracking-widest text-[#d97706] mb-2">Infrastructure Powerhouse</h2>
+                    <h3 class="text-3xl font-black text-[#0b3c5d] mb-6 tracking-tight">Our Standalone Production Facility</h3>
+                    
+                    <p class="text-slate-600 leading-relaxed mb-4 text-justify text-sm sm:text-base">
+                        PEBX Steel operates a state-of-the-art structural fabrication setup spanning approximately <strong>10,000 Square Feet</strong>. This facility features standalone production lines geared to produce all essential metal and structural component types for industrial frameworks.
+                    </p>
+                    <p class="text-slate-600 leading-relaxed mb-6 text-justify text-sm sm:text-base">
+                        Equipped with semi-automated cutting, hole-drilling, and welding lines, the facility achieves extreme dimensional accuracy and consistency. This allows us to deliver complex shapes while optimising time, material waste, and power consumption.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-4 border-t border-slate-100 pt-6">
+                        <div class="p-4 bg-slate-50 rounded-lg border border-slate-100">
+                            <span class="text-xl font-black text-[#0b3c5d] block tracking-wide">~500 MT/Mo</span>
+                            <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Production Capacity</span>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-lg border border-slate-100">
+                            <span class="text-xl font-black text-[#0b3c5d] block tracking-wide">10,000 Sft</span>
+                            <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Setup Area</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-7 rounded-xl border border-slate-200/80">
+                    <h4 class="font-bold text-base text-slate-900 mb-4 tracking-wide flex items-center gap-2"><i class="fa-solid fa-boxes-stacked text-[#d97706]"></i>Product Portfolio Outputs</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div class="bg-white p-3.5 rounded border border-slate-200/40 shadow-sm flex items-center gap-3">
+                            <i class="fa-solid fa-circle text-[6px] text-[#d97706]"></i>
+                            <span class="text-xs font-semibold text-slate-700">Metal Roofing Sheets</span>
+                        </div>
+                        <div class="bg-white p-3.5 rounded border border-slate-200/40 shadow-sm flex items-center gap-3">
+                            <i class="fa-solid fa-circle text-[6px] text-[#d97706]"></i>
+                            <span class="text-xs font-semibold text-slate-700">Wall Cladding Profiles</span>
+                        </div>
+                        <div class="bg-white p-3.5 rounded border border-slate-200/40 shadow-sm flex items-center gap-3">
+                            <i class="fa-solid fa-circle text-[6px] text-[#d97706]"></i>
+                            <span class="text-xs font-semibold text-slate-700">Steel Decking Panels</span>
+                        </div>
+                        <div class="bg-white p-3.5 rounded border border-slate-200/40 shadow-sm flex items-center gap-3">
+                            <i class="fa-solid fa-circle text-[6px] text-[#d97706]"></i>
+                            <span class="text-xs font-semibold text-slate-700">Cold Form Purlins & Channels</span>
+                        </div>
+                        <div class="bg-white p-3.5 rounded border border-slate-200/40 shadow-sm flex items-center gap-3">
+                            <i class="fa-solid fa-circle text-[6px] text-[#d97706]"></i>
+                            <span class="text-xs font-semibold text-slate-700">Turbo Roof Ventilators</span>
+                        </div>
+                        <div class="bg-white p-3.5 rounded border border-slate-200/40 shadow-sm flex items-center gap-3">
+                            <i class="fa-solid fa-circle text-[6px] text-[#d97706]"></i>
+                            <span class="text-xs font-semibold text-slate-700">Heavy Built-up Beams</span>
+                        </div>
+                    </div>
+
+                    <h4 class="font-bold text-xs text-slate-900 uppercase tracking-widest mt-8 mb-3.5">Standard Color Finishes Available</h4>
+                    <div class="flex flex-wrap gap-2.5">
+                        <div class="color-swatch w-7 h-7 rounded-md bg-[#0070bb] shadow-sm cursor-pointer" title="Deep Sky Blue"></div>
+                        <div class="color-swatch w-7 h-7 rounded-md bg-[#002147] shadow-sm cursor-pointer" title="Oxford Blue"></div>
+                        <div class="color-swatch w-7 h-7 rounded-md bg-[#f4f6f0] border border-slate-300 shadow-sm cursor-pointer" title="Pearl White"></div>
+                        <div class="color-swatch w-7 h-7 rounded-md bg-[#0b6623] shadow-sm cursor-pointer" title="Forest Green"></div>
+                        <div class="color-swatch w-7 h-7 rounded-md bg-[#154734] shadow-sm cursor-pointer" title="Hunter Green"></div>
+                        <div class="color-swatch w-7 h-7 rounded-md bg-[#7a1c1c] shadow-sm cursor-pointer" title="Berry Red"></div>
+                        <div class="color-swatch w-7 h-7 rounded-md bg-[#8c2d19] shadow-sm cursor-pointer" title="Brick Red"></div>
+                        <div class="color-swatch w-7 h-7 rounded-md bg-[#363d41] shadow-sm cursor-pointer" title="Anthracite Grey"></div>
+                    </div>
+                    <span class="text-[10px] text-slate-400 font-medium mt-2 block">Hover to see finish profile specification.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="technical" class="py-24 bg-slate-950 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-extrabold uppercase tracking-widest text-[#d97706] mb-2">Technical Specifications</h2>
+                <h3 class="text-3xl font-black tracking-tight">The Advantages of PEB Design Systems</h3>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                <div class="lg:col-span-4 space-y-2">
+                    <h4 class="text-xs font-bold tracking-widest uppercase text-slate-400 mb-4">Structural Frame Profiles</h4>
+                    <button onclick="switchFrame('tccs', this)" class="frame-btn w-full text-left p-3.5 rounded font-bold text-xs uppercase tracking-wider bg-[#0b3c5d] text-white border-l-4 border-amber-500 transition shadow-sm">
+                        Tapered Column Clear Span (TCCS)
+                    </button>
+                    <button onclick="switchFrame('multispan', this)" class="frame-btn w-full text-left p-3.5 rounded font-bold text-xs uppercase tracking-wider bg-slate-900 text-slate-300 hover:bg-slate-800 transition">
+                        Multi-Span Systems (I, II, III)
+                    </button>
+                    <button onclick="switchFrame('leanto', this)" class="frame-btn w-full text-left p-3.5 rounded font-bold text-xs uppercase tracking-wider bg-slate-900 text-slate-300 hover:bg-slate-800 transition">
+                        Lean-To Extension Frameworks
+                    </button>
+                    <button onclick="switchFrame('cranemezz', this)" class="frame-btn w-full text-left p-3.5 rounded font-bold text-xs uppercase tracking-wider bg-slate-900 text-slate-300 hover:bg-slate-800 transition">
+                        Clear Span with Crane / Mezzanine
+                    </button>
+                </div>
+
+                <div class="lg:col-span-8 bg-slate-900 p-7 rounded-xl border border-slate-800 flex flex-col justify-between shadow-lg">
+                    <div id="frame-content">
+                        <h4 id="frame-title" class="text-lg font-bold text-amber-500 mb-3 tracking-wide">Tapered Column Clear Span (TCCS)</h4>
+                        <p id="frame-desc" class="text-xs text-slate-300 leading-relaxed text-justify">
+                            Engineered to provide a clear floor area without interior supporting columns. Perfect for warehouses, aircraft hangars, and heavy logistics facilities requiring maximum interior space flexibility. Allows clear spans extending up to 40 meters.
+                        </p>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-y-3 gap-x-2 mt-7 text-xs font-medium text-slate-400 border-t border-slate-800 pt-5">
+                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-angles-right text-[#d97706] text-[10px]"></i> Main Frame Columns</div>
+                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-angles-right text-[#d97706] text-[10px]"></i> Roof Monitor Optional</div>
+                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-angles-right text-[#d97706] text-[10px]"></i> Eave Gutters</div>
+                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-angles-right text-[#d97706] text-[10px]"></i> Wall Light Panels</div>
+                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-angles-right text-[#d97706] text-[10px]"></i> Rod / Cable Bracing</div>
+                        <div class="flex items-center gap-1.5"><i class="fa-solid fa-angles-right text-[#d97706] text-[10px]"></i> Ridge Ventilators</div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="border-slate-900 my-16">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h4 class="text-base font-bold mb-6 text-amber-500 tracking-wide flex items-center gap-2"><i class="fa-solid fa-circle-nodes"></i>PEB Engineering Benefits</h4>
+                    <ul class="space-y-3.5 text-xs text-slate-300">
+                        <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-emerald-500 mt-0.5 shrink-0"></i> <span class="text-justify block"><strong>Clear Spans:</strong> Reach up to 40 meters without requiring internal intermediate pillars.</span></li>
+                        <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-emerald-500 mt-0.5 shrink-0"></i> <span class="text-justify block"><strong>Dimensional Flexibility:</strong> Highly scalable custom lengths, widths, and heights.</span></li>
+                        <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-emerald-500 mt-0.5 shrink-0"></i> <span class="text-justify block"><strong>Cost & Timeline Fixity:</strong> Reduced initial layout budgets and quick turnaround execution windows.</span></li>
+                        <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-emerald-500 mt-0.5 shrink-0"></i> <span class="text-justify block"><strong>Material Economy:</strong> Achieve steel weight reduction exceeding 20% compared to traditional beams.</span></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-base font-bold mb-6 text-amber-500 tracking-wide flex items-center gap-2"><i class="fa-solid fa-gears"></i>Purlins & Channels Performance</h4>
+                    <ul class="space-y-3.5 text-xs text-slate-300">
+                        <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-amber-500 mt-0.5 shrink-0"></i> <span class="text-justify block">High strength-to-weight structural ratios supporting heavy live and dead loads.</span></li>
+                        <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-amber-500 mt-0.5 shrink-0"></i> <span class="text-justify block">Manufactured natively on highly accurate automatic cutting lines.</span></li>
+                        <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-amber-400 mt-0.5 shrink-0"></i> <span class="text-justify block">Enhanced life cycle parameters backed by premium material durability coatings.</span></li>
+                        <li class="flex items-start gap-2.5"><i class="fa-solid fa-check text-amber-400 mt-0.5 shrink-0"></i> <span class="text-justify block">Ideal for bolted modular configurations on field erection spots.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-12 gap-5">
+                <div>
+                    <h2 class="text-xs font-extrabold uppercase tracking-widest text-[#d97706] mb-2">Track Record</h2>
+                    <h3 class="text-3xl font-black text-[#0b3c5d] tracking-tight">Major Projects Executed</h3>
+                </div>
+                <div class="flex flex-wrap gap-2 border-b border-slate-100 pb-2">
+                    <button onclick="filterProjects('all', this)" class="tab-btn px-4 py-2 text-xs font-bold tracking-wider uppercase border-b-2 border-[#0b3c5d] text-[#0b3c5d]">All Sectors</button>
+                    <button onclick="filterProjects('rice-mill', this)" class="tab-btn px-4 py-2 text-xs font-bold tracking-wider uppercase text-slate-400 hover:text-slate-900">Rice & Agro Mills</button>
+                    <button onclick="filterProjects('commercial', this)" class="tab-btn px-4 py-2 text-xs font-bold tracking-wider uppercase text-slate-400 hover:text-slate-900">Commercial & Leisure</button>
+                    <button onclick="filterProjects('industrial', this)" class="tab-btn px-4 py-2 text-xs font-bold tracking-wider uppercase text-slate-400 hover:text-slate-900">Industrial Infrastructure</button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="project-card bg-slate-50 rounded-xl overflow-hidden border border-slate-200/50 shadow-sm transition hover:shadow-md" data-category="rice-mill">
+                    <img src="project_pouralsamy_rice_mill.jpg" alt="Maharaja Rice Mills (P) Ltd" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-[9px] uppercase font-bold tracking-widest text-[#0b3c5d] bg-sky-50 border border-sky-100 px-2 py-0.5 rounded">Rice & Agro Mills</span>
+                        <h4 class="font-bold text-base text-slate-900 mt-3 tracking-wide">Maharaja Rice Mills (P) Ltd</h4>
+                        <p class="text-[11px] font-medium text-slate-400 mt-1"><i class="fa-solid fa-location-dot mr-1 text-[#d97706]"></i> Kangeyam, Tamil Nadu</p>
+                        <p class="text-xs text-slate-600 mt-3 text-justify leading-relaxed">Turnkey execution of large-scale heavy processing sheds and custom continuous automated Dal Mill infrastructure layout.</p>
+                    </div>
+                </div>
+                <div class="project-card bg-slate-50 rounded-xl overflow-hidden border border-slate-200/50 shadow-sm transition hover:shadow-md" data-category="rice-mill">
+                    <img src="project_srikrishna_ricemill.jpg" alt="Sri Krishna Rice Mill" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-[9px] uppercase font-bold tracking-widest text-[#0b3c5d] bg-sky-50 border border-sky-100 px-2 py-0.5 rounded">Rice & Agro Mills</span>
+                        <h4 class="font-bold text-base text-slate-900 mt-3 tracking-wide">Sri Krishna Rice Mill</h4>
+                        <p class="text-[11px] font-medium text-slate-400 mt-1"><i class="fa-solid fa-location-dot mr-1 text-[#d97706]"></i> Pallathur, Tamil Nadu</p>
+                        <p class="text-xs text-slate-600 mt-3 text-justify leading-relaxed">Complete execution and erection of a fully enclosed, high-durability manufacturing building envelope layout.</p>
+                    </div>
+                </div>
+                <div class="project-card bg-slate-50 rounded-xl overflow-hidden border border-slate-200/50 shadow-sm transition hover:shadow-md" data-category="industrial">
+                    <img src="project_online_instruments.jpg" alt="Online Instruments India" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-[9px] uppercase font-bold tracking-widest text-purple-700 bg-purple-50 border border-purple-100 px-2 py-0.5 rounded">Industrial Infrastructure</span>
+                        <h4 class="font-bold text-base text-slate-900 mt-3 tracking-wide">Online Instruments India (P) Ltd</h4>
+                        <p class="text-[11px] font-medium text-slate-400 mt-1"><i class="fa-solid fa-location-dot mr-1 text-[#d97706]"></i> Karnataka Region</p>
+                        <p class="text-xs text-slate-600 mt-3 text-justify leading-relaxed">Complex structural retrofitting and engineered strengthening works designed for heavy operational machine load compliance.</p>
+                    </div>
+                </div>
+                <div class="project-card bg-slate-50 rounded-xl overflow-hidden border border-slate-200/50 shadow-sm transition hover:shadow-md" data-category="commercial">
+                    <img src="project_byg_brewski.jpg" alt="Jolly Gunj - Byg Brewski" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-[9px] uppercase font-bold tracking-widest text-amber-700 bg-amber-50 border border-amber-100 px-2 py-0.5 rounded">Commercial & Leisure</span>
+                        <h4 class="font-bold text-base text-slate-900 mt-3 tracking-wide">Jolly Gunj - Byg Brewski</h4>
+                        <p class="text-[11px] font-medium text-slate-400 mt-1"><i class="fa-solid fa-location-dot mr-1 text-[#d97706]"></i> Bangalore, Karnataka</p>
+                        <p class="text-xs text-slate-600 mt-3 text-justify leading-relaxed">High-end multi-tier Composite Steel Building integration matching commercial microbrewery aesthetic blueprints.</p>
+                    </div>
+                </div>
+                <div class="project-card bg-slate-50 rounded-xl overflow-hidden border border-slate-200/50 shadow-sm transition hover:shadow-md" data-category="rice-mill">
+                    <img src="project_chennai_rice.jpg" alt="Chennai Rice Industries" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-[9px] uppercase font-bold tracking-widest text-[#0b3c5d] bg-sky-50 border border-sky-100 px-2 py-0.5 rounded">Rice & Agro Mills</span>
+                        <h4 class="font-bold text-base text-slate-900 mt-3 tracking-wide">Chennai Rice Industries</h4>
+                        <p class="text-[11px] font-medium text-slate-400 mt-1"><i class="fa-solid fa-location-dot mr-1 text-[#d97706]"></i> Perundurai, Tamil Nadu</p>
+                        <p class="text-xs text-slate-600 mt-3 text-justify leading-relaxed">Fabrication, material supply, and fast-track modular framing erection of extensive main storage raw material warehouses.</p>
+                    </div>
+                </div>
+                <div class="project-card bg-slate-50 rounded-xl overflow-hidden border border-slate-200/50 shadow-sm transition hover:shadow-md" data-category="rice-mill">
+                    <img src="project_doodabasveshwara_rice.jpg" alt="Sri Doodabasveshwara Rice Industries" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-[9px] uppercase font-bold tracking-widest text-[#0b3c5d] bg-sky-50 border border-sky-100 px-2 py-0.5 rounded">Rice & Agro Mills</span>
+                        <h4 class="font-bold text-base text-slate-900 mt-3 tracking-wide">Sri Doodabasveshwara Rice Industries</h4>
+                        <p class="text-[11px] font-medium text-slate-400 mt-1"><i class="fa-solid fa-location-dot mr-1 text-[#d97706]"></i> Siruguppa, Karnataka</p>
+                        <p class="text-xs text-slate-600 mt-3 text-justify leading-relaxed">Engineering and structural delivery of elevated high-clearance main industrial processing mill sheds.</p>
+                    </div>
+                </div>
+                <div class="project-card bg-slate-50 rounded-xl overflow-hidden border border-slate-200/50 shadow-sm transition hover:shadow-md" data-category="commercial">
+                    <img src="project_regenta_resort.jpg" alt="Regenta Resort" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-[9px] uppercase font-bold tracking-widest text-amber-700 bg-amber-50 border border-amber-100 px-2 py-0.5 rounded">Commercial & Leisure</span>
+                        <h4 class="font-bold text-base text-slate-900 mt-3 tracking-wide">Regenta Resort (Light Roof Structure)</h4>
+                        <p class="text-[11px] font-medium text-slate-400 mt-1"><i class="fa-solid fa-location-dot mr-1 text-[#d97706]"></i> Sakleshpur, Karnataka</p>
+                        <p class="text-xs text-slate-600 mt-3 text-justify leading-relaxed">High-durability architectural aesthetic light roofing setup engineered for rugged climate protection and aesthetics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-slate-100 py-12 border-t border-b border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h4 class="text-[10px] font-extrabold uppercase tracking-widest text-slate-400 mb-6">Trusted By Elite Enterprise Brands</h4>
+            <div class="flex flex-wrap justify-center items-center gap-5 md:gap-8 opacity-80">
+                <span class="font-bold text-xs tracking-wider text-slate-600 bg-white border border-slate-200/50 px-4 py-2 rounded shadow-sm">MAHARAJHA RICE MILL</span>
+                <span class="font-bold text-xs tracking-wider text-slate-600 bg-white border border-slate-200/50 px-4 py-2 rounded shadow-sm">SRI KRISHNA RICE MILL</span>
+                <span class="font-bold text-xs tracking-wider text-slate-600 bg-white border border-slate-200/50 px-4 py-2 rounded shadow-sm">ONLINE INSTRUMENTS</span>
+                <span class="font-bold text-xs tracking-wider text-slate-600 bg-white border border-slate-200/50 px-4 py-2 rounded shadow-sm">RE:GEN:TA HOTELS</span>
+                <span class="font-bold text-xs tracking-wider text-slate-600 bg-white border border-slate-200/50 px-4 py-2 rounded shadow-sm">BYG BREWSKI</span>
+                <span class="font-bold text-xs tracking-wider text-slate-600 bg-white border border-slate-200/50 px-4 py-2 rounded shadow-sm">TARA GRAINS</span>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <div class="lg:col-span-5 space-y-6">
+                    <div>
+                        <h2 class="text-xs font-extrabold uppercase tracking-widest text-[#d97706] mb-2">Connect With Us</h2>
+                        <h3 class="text-3xl font-black text-[#0b3c5d] tracking-tight">Let's Build Together</h3>
+                        <p class="text-xs sm:text-sm text-slate-600 mt-2 text-justify leading-relaxed">Reach out directly to our engineering office or industrial unit for tender requests and design evaluations.</p>
+                    </div>
+
+                    <div class="space-y-5 text-xs sm:text-sm">
+                        <div class="flex gap-3.5">
+                            <i class="fa-solid fa-building text-[#0b3c5d] text-base mt-1 shrink-0 w-5"></i>
+                            <div>
+                                <h4 class="font-bold text-slate-900 tracking-wide">Registered Corporate Office</h4>
+                                <p class="text-slate-600 mt-1 leading-relaxed text-justify">#27, Annapurneshwari Complex, Pipeline Road,<br>Bahubali Nagar, Jalahalli, Bangalore - 560013. Karnataka, India.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-3.5">
+                            <i class="fa-solid fa-industry text-[#0b3c5d] text-base mt-1 shrink-0 w-5"></i>
+                            <div>
+                                <h4 class="font-bold text-slate-900 tracking-wide">Manufacturing Plant Location</h4>
+                                <p class="text-slate-600 mt-1 leading-relaxed text-justify">557-P1 Sompura, Taluk, 2nd stage, Industrial area,<br>Nelamangala, Bangalore, Karnataka 562132</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-3.5">
+                            <i class="fa-solid fa-envelope text-[#0b3c5d] text-base mt-1 shrink-0 w-5"></i>
+                            <div>
+                                <h4 class="font-bold text-slate-900 tracking-wide">Email Communications</h4>
+                                <p class="text-slate-600 mt-1 leading-relaxed">info@pebxsteel.com<br>mownesh@pebxsteel.com</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-3.5">
+                            <i class="fa-solid fa-phone text-[#0b3c5d] text-base mt-1 shrink-0 w-5"></i>
+                            <div>
+                                <h4 class="font-bold text-slate-900 tracking-wide">Direct Contact Hotlines</h4>
+                                <p class="text-slate-600 mt-1 leading-relaxed">+91 8608796669 <br>+91 8971024276</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 bg-slate-50 p-6 sm:p-8 rounded-xl border border-slate-200/80 shadow-inner">
+                    <h4 class="font-bold text-lg text-slate-900 mb-1 tracking-wide">Request Technical Quotation</h4>
+                    <p class="text-xs text-slate-500 mb-6">Submit your general layout measurements for custom cost approximations.</p>
+                    
+                    <form id="quoteForm" class="space-y-4.5">
+                        <input type="hidden" name="access_key" value="dd6c413e-6d03-45c7-a0eb-1825db391de3">
+                        <input type="hidden" name="subject" value="New Technical Quotation Request from PEBX Website">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                        <div>
+                            <label class="block text-[10px] font-bold text-slate-700 uppercase tracking-wider mb-1">Company / Contact Name</label>
+                            <input type="text" name="Client Name" required class="w-full border border-slate-300 rounded-md px-3.5 py-2.5 text-xs bg-white focus:outline-none focus:border-[#0b3c5d]">
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-[10px] font-bold text-slate-700 uppercase tracking-wider mb-1">Email Address</label>
+                                <input type="email" name="Email Address" required class="w-full border border-slate-300 rounded-md px-3.5 py-2.5 text-xs bg-white focus:outline-none focus:border-[#0b3c5d]">
+                            </div>
+                            <div>
+                                <label class="block text-[10px] font-bold text-slate-700 uppercase tracking-wider mb-1">Contact Number</label>
+                                <input type="tel" name="Contact Number" required placeholder="e.g. +91 XXXXX XXXXX" class="w-full border border-slate-300 rounded-md px-3.5 py-2.5 text-xs bg-white focus:outline-none focus:border-[#0b3c5d]">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                            <div>
+                                <label class="block text-[10px] font-bold text-slate-700 uppercase tracking-wider mb-1">Estimated Span Width (m)</label>
+                                <input type="number" name="Span Width (m)" placeholder="e.g. 24" required class="w-full border border-slate-300 rounded-md px-3.5 py-2.5 text-xs bg-white focus:outline-none focus:border-[#0b3c5d]">
+                            </div>
+                            <div>
+                                <label class="block text-[10px] font-bold text-slate-700 uppercase tracking-wider mb-1">Total Building Length (m)</label>
+                                <input type="number" name="Building Length (m)" placeholder="e.g. 60" required class="w-full border border-slate-300 rounded-md px-3.5 py-2.5 text-xs bg-white focus:outline-none focus:border-[#0b3c5d]">
+                            </div>
+                            <div>
+                                <label class="block text-[10px] font-bold text-slate-700 uppercase tracking-wider mb-1">Height of the Building (m)</label>
+                                <input type="number" name="Building Height (m)" placeholder="e.g. 9" required class="w-full border border-slate-300 rounded-md px-3.5 py-2.5 text-xs bg-white focus:outline-none focus:border-[#0b3c5d]">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-[10px] font-bold text-slate-700 uppercase tracking-wider mb-1">Structure Category</label>
+                                <select name="Structure Category" class="w-full border border-slate-300 bg-white rounded-md px-3.5 py-2.5 text-xs focus:outline-none focus:border-[#0b3c5d]">
+                                    <option>Industrial Warehouse</option>
+                                    <option>Rice/Agro Processing Plant</option>
+                                    <option>Multi-Story Composite Frame</option>
+                                    <option>Roofing / Retrofitting Works</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-[10px] font-bold text-slate-700 uppercase tracking-wider mb-1">Primary Project Delivery Location</label>
+                                <input type="text" name="Project Location" placeholder="e.g. Anantapur, Nelamangala" required class="w-full border border-slate-300 rounded-md px-3.5 py-2.5 text-xs bg-white focus:outline-none focus:border-[#0b3c5d]">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-[10px] font-bold text-slate-700 uppercase tracking-wider mb-1">Specific Design Remarks / Cargo Load Details</label>
+                            <textarea rows="3" name="Design Remarks" placeholder="Describe layout configurations or specific structural loading targets..." class="w-full border border-slate-300 rounded-md px-3.5 py-2.5 text-xs bg-white focus:outline-none focus:border-[#0b3c5d]"></textarea>
+                        </div>
+
+                        <div id="form-status" class="text-xs font-semibold hidden mt-2"></div>
+
+                        <button type="submit" id="submit-btn" class="w-full bg-[#0b3c5d] hover:bg-[#d97706] text-white font-bold py-3.5 px-4 rounded-md text-xs uppercase tracking-widest transition shadow-md">
+                            Transmit Specs To Engineering Advisory
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-400 py-12 text-xs border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6 border-b border-slate-900/60 pb-8 mb-8">
+                <div class="flex items-center">
+                    <img src="logo.png" alt="PEBX Steel Buildings Pvt. Ltd." class="h-12 w-auto brightness-0 invert opacity-45">
+                </div>
+                <div class="flex flex-wrap justify-center gap-6 font-bold uppercase tracking-widest text-[10px]">
+                    <a href="#about" class="hover:text-white transition">About</a>
+                    <a href="#services" class="hover:text-white transition">Capabilities</a>
+                    <a href="#facility" class="hover:text-white transition">Plant Facilities</a>
+                    <a href="#projects" class="hover:text-white transition">Track Record</a>
+                </div>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between items-center text-[11px] gap-4 text-slate-500">
+                <p>&copy; 2026 PEBX Steel Buildings Pvt. Ltd. All Rights Reserved. National Operational Delivery Map.</p>
+                <p>Official Web Portal: <a href="http://www.pebxsteel.com" target="_blank" class="hover:underline text-slate-400">www.pebxsteel.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Navigation Toggle Handling
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Frame Selector Data Engine
+        const frameData = {
+            tccs: {
+                title: "Tapered Column Clear Span (TCCS)",
+                desc: "Engineered to provide a clear floor area without interior supporting columns. Perfect for warehouses, aircraft hangars, and heavy logistics facilities requiring maximum interior space flexibility. Allows clear spans extending up to 40 meters."
+            },
+            multispan: {
+                title: "Multi-Span Structural Layouts (I, II, III)",
+                desc: "Utilizes interior intermediate structural columns to distribute overall beam burden economically. Highly recommended for wide manufacturing facilities, chemical plants, and heavy bulk storage centers where continuous width is necessary."
+            },
+            leanto: {
+                title: "Lean-To Extension Frameworks",
+                desc: "Designed as an architectural addition or extension to existing structural units. Shared load column distributions maximize cost savings while providing straightforward structural volume adjustments."
+            },
+            cranemezz: {
+                title: "Clear Span with Crane & Mezzanine Floors",
+                desc: "Heavy industry build profile configured to hold integrated overhead EOT Crane runways and built-in industrial mezzanine decking panels for multilevel tool storage operations."
+            }
+        };
+
+        function switchFrame(key, element) {
+            document.getElementById('frame-title').innerText = frameData[key].title;
+            document.getElementById('frame-desc').innerText = frameData[key].desc;
+            
+            document.querySelectorAll('.frame-btn').forEach(btn => {
+                btn.classList.remove('bg-[#0b3c5d]', 'text-white', 'border-l-4', 'border-amber-500');
+                btn.classList.add('bg-slate-900', 'text-slate-300');
+            });
+            
+            element.classList.remove('bg-slate-900', 'text-slate-300');
+            element.classList.add('bg-[#0b3c5d]', 'text-white', 'border-l-4', 'border-amber-500');
+        }
+
+        // Project Filters
+        function filterProjects(category, element) {
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('border-b-2', 'border-[#0b3c5d]', 'text-[#0b3c5d]');
+                btn.classList.add('text-slate-400');
+            });
+            element.classList.add('border-b-2', 'border-[#0b3c5d]', 'text-[#0b3c5d]');
+            element.classList.remove('text-slate-400');
+
+            document.querySelectorAll('.project-card').forEach(card => {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        }
+
+        // Asynchronous Form Submission for Automated Email Routing (Web3Forms)
+        const form = document.getElementById('quoteForm');
+        const statusDiv = document.getElementById('form-status');
+        const submitBtn = document.getElementById('submit-btn');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Loading State UI Updates
+            submitBtn.disabled = true;
+            submitBtn.innerText = "Transmitting Specifications...";
+            statusDiv.classList.remove('hidden', 'text-emerald-600', 'text-red-600');
+            statusDiv.classList.add('text-slate-500');
+            statusDiv.innerText = "Connecting to secure engineering matrix...";
+
+            const formData = new FormData(form);
+            const object = Object.fromEntries(formData);
+            const json = JSON.stringify(object);
+
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            })
+            .then(async (response) => {
+                let res = await response.json();
+                if (response.status == 200) {
+                    statusDiv.classList.remove('text-slate-500');
+                    statusDiv.classList.add('text-emerald-600');
+                    statusDiv.innerText = "Transmission Complete!";
+                    alert("Thank you! Your structural parameters have been transferred directly to PEBX Steel Building Systems' engineering division. Our technical office will verify clearance matrices and connect back to you promptly.");
+                    form.reset();
+                } else {
+                    console.log(response);
+                    statusDiv.classList.remove('text-slate-500');
+                    statusDiv.classList.add('text-red-600');
+                    statusDiv.innerText = res.message;
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                statusDiv.classList.remove('text-slate-500');
+                statusDiv.classList.add('text-red-600');
+                statusDiv.innerText = "Network transmission timeout. Please recheck your internet connection.";
+            })
+            .then(() => {
+                // Reset submit button state
+                submitBtn.disabled = false;
+                submitBtn.innerText = "Transmit Specs To Engineering Advisory";
+                setTimeout(() => {
+                    statusDiv.classList.add('hidden');
+                }, 5000);
+            });
+        });
+    </script>
+</body>
+</html>
